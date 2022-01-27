@@ -1,0 +1,119 @@
+.entete{
+    position:absolute;
+    height: 80vh;
+    min-height:760px ;
+    width: 100%;
+    background: url("./home-bg-4dc4b66b752c785811e5c6b1d3df1f90b953d05e0ff367ff34f8823f34a0036a.svg") bottom center; 
+    background-size: cover;
+}
+.navbar-brand img{
+    height: 50px;
+}
+.btn{
+    border-radius: 20px;
+    height: 40px;
+    width: 210px;
+}
+.text{
+    margin-top: 250px;
+}
+.text a{
+    text-decoration: none;
+}
+.lien1{
+    background-color: #ff6b6b;
+    padding: 2px; 
+    border-radius: 0.5rem;
+    color: white !important;
+    margin-right: 0.5rem !important;
+}
+.lien2{
+    color: #13151b !important;
+    font-weight: 600;
+}
+.text h1{
+    font-weight: 600;
+    font-size: 50px;
+    margin: 20px 0px 20px ;
+   
+}
+.recherche button{
+    height: 70px;
+    width: 420px;
+    background-color: #fff;
+    border-radius: 50px!important;
+}
+.recherche button i{
+    float: right;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: dodgerblue;
+    font-size: 20px;
+    color: #fff;
+    margin-left: 10px;
+}
+.defile{
+    display: flex;
+    margin-top: 230px;
+     justify-content: center;
+    align-items: center;
+}
+.defile1{
+    margin-right: 100px;
+}
+.defile1:hover{
+    cursor: pointer;
+}
+.defile1 i{
+    color: dodgerblue;
+    font-size: 20px;
+}
+.test{
+    margin-top: 50px;
+}
+.reduit{
+    margin-left:800px;
+}
+.reduit span{
+   color: dodgerblue;
+}
+.card
+{
+    margin-bottom: 10px!important;
+    border: none;
+}
+.card a{
+  text-decoration: none;
+  color: #13151b;
+}
+.card img:hover{
+    cursor: pointer;
+}
+.boite{
+   display: flex;
+}
+.test1{
+    margin-top: 50px;
+}
+.test1 h1{
+    font-size: 25px;
+}
+.slick-prev{
+    background: none;
+    border: none;
+}
+.slick-next{
+    background: none;
+    border: none;
+}
+.fa-chevron-circle-left{
+   color: rgba(255, 255, 255, 0.886);
+    text-shadow: 0px 0px 20px black;
+    font-size: 35px;
+}
+.fa-chevron-circle-right{
+    color: rgba(255, 255, 255, 0.886);
+    text-shadow: 0px 0px 20px black;
+    font-size: 35px;
+}
+
