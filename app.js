@@ -3,6 +3,11 @@ $('.boite').slick({
   slidesToShow: 3,
   slidesToScroll: 1
 });
+$('.cartes').slick({
+  infinite: false,
+  slidesToShow: 2,
+  slidesToScroll: 2
+});
 
 let prev =document.querySelectorAll(".slick-prev")
 let next =document.querySelectorAll(".slick-next")
