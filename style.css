@@ -10,9 +10,16 @@
     height: 50px;
 }
 .btn{
-    border-radius: 20px;
-    height: 40px;
-    width: 210px;
+    border-radius: 5px;
+    height: 50px;
+    width: 260px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+    color: rgb(78, 74, 74);
+    border: 1px solid gray;
+    
+
 }
 .text{
     margin-top: 250px;
@@ -88,22 +95,28 @@
 }
 .boite .card
 {
-    margin-bottom: 10px!important;
+    margin-top: 10px!important;
     border: none;
-   
+    margin-right: 13px;
+    width: 100%;
+}
+.boite .card img{
+    border-radius: 10px;
+    height: 90px;
 }
 .card a{
   text-decoration: none;
   color: #13151b;
-}
-.card-img-top{
-    margin-right: 15px;
 }
 .card img:hover{
     cursor: pointer;
 }
 .boite{
    display: flex;
+}
+.card-title{
+    font-size: 17px;
+    font-weight: bold;
 }
 .test1{
     margin-top: 50px;
@@ -120,14 +133,16 @@
     border: none;
 }
 .fa-chevron-circle-left{
-   color: rgba(255, 255, 255, 0.886);
+    color: rgba(255, 255, 255, 0.886);
     text-shadow: 0px 0px 20px black;
     font-size: 35px;
+    height: 140px;
 }
 .fa-chevron-circle-right{
     color: rgba(255, 255, 255, 0.886);
     text-shadow: 0px 0px 20px black;
     font-size: 35px;
+    height: 140px;
 }
 .lien{
     margin-top: 20px;
@@ -170,37 +185,165 @@ p{
 }
 .liste{
     margin-top: 40px;
+    border: none;
 }
- .azerty{
-    margin-top: 30px;
+.liste img{
+    height: 200px;
+}
+.corps{
+    width: 100%;
+    height: 300px;
     background-color: #ff6b6b;
+    margin-top: 30px;
     border-radius: 10px;
-    
+    display: flex;
+    flex-direction: row;
 }
-.azerty1 a{
-    text-decoration: none;
-    border-radius: 10px!important;
-    font-weight: bold;
+.long{
+    padding-top: 21px;
+    width: 100%;
+    padding-left: 50px;
+}
+.long h1{
+    font-size: 50px;
+    width: 700px;
+}
+.long p{
+    width: 550px; 
+}
+ .poste{  
 
-}
-.azerty1 a:hover{
-    background-color: rgba(226, 219, 219, 0.972);
-}
-.poste{
-    background-size: auto 100%;
-    background-position: right;    
-
-}
+} 
+ .poste img{
+   width: 350px;
+} 
 .pays{
     margin-top: 50px;
 
 }
 .pays .card{
     border: none;
+    
+
 }
-.cartes{
+.pays .card img{
+    height: 100px;
+    transform: scale(1);
+    transition: 0.2s ease-in-out; 
+   
+}
+.lien2{
+    margin-top: 20px;
+}
+.pays .card:hover img{
+    transform: scale(1.1);
+}
+.tout{
+    width:100%;
+    margin-top: 70px; 
+}
+.block1{
+    width: 45%;
+    padding: 60px;
+}
+.block2{
+    width: 55%;
+    padding: 60px;
+}
+.block2 .col img{
+
+    width: 200px;
+   
+}
+.carre{
+    height: 270px;
+    width: 500px;
+    background: #eaeaeb;
+}
+.haut{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+
+}
+.etoile {
+    margin-right: 190px;
+}
+.etoile span i{
     border: 1px solid black;
+    padding: 5px;
+    color: white;
+    background-color: green;
 }
-.cartes .card{
+.besoin{
+    height: 500px;
+    margin-top: 90px;
+   
+}
+.besoin .card{
     border: none;
+     overflow: hidden;
 }
+.besoin .card img{
+    transform: scale(1);
+    transition: 0.2s ease-in-out; 
+}
+.besoin .card:hover img{
+    transform: scale(1.1)
+}
+.besoin .card-text{
+    width: 320px;
+    text-align: justify;
+}
+.besoin .card-title:hover{
+    text-decoration: underline;
+}
+.texte a{
+    text-decoration: none;
+    color: black;
+    font-size:15px ;
+    font-weight: bold;
+    padding-left: 15px;
+}
+.texte p{
+    padding:15px ;
+    color: black;
+}
+.partie{
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.partie1 p{
+    width: 420px;
+}
+.partie2{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    /* margin-right: 140px; */
+    margin-left: 20%;
+}
+.partie2 img{
+    border-radius: 50%;
+    
+}
+.partieB{
+    width: 500px;
+}
+.partie3 {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.partie3 img{
+    border-radius: 50%;
+}
+
+.partieD{
+    width: 500px;
+}
+

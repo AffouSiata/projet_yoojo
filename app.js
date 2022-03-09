@@ -1,11 +1,11 @@
 $('.boite').slick({
   infinite: false,
-  slidesToShow: 3,
+  slidesToShow: 4,
   slidesToScroll: 1
 });
 $('.cartes').slick({
   infinite: false,
-  slidesToShow: 2,
+  slidesToShow: 1,
   slidesToScroll: 2
 });
 
